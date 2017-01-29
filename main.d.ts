@@ -45,7 +45,42 @@ interface IAldeedSimpleSchemaPropertyAttributes {
 
 interface IAldeedMeteorAutoFormPropertyAttributes {
 
-	label?: string;
+	/**
+	 * Form element type
+	 * @type {string}
+	 */
+		type?: string;
+
+	/**
+	 * Form element class
+	 * Yep, reserved word used as name
+	 * @type {string}
+	 */
+		class?: string;
+
+	/**
+	 * Form element options
+	 * @type {any}
+	 */
+	options?: any;
+
+	/**
+	 * Element default value
+	 * @type {string|boolean|number}
+	 */
+	defaultValue?: any;
+
+	omit?: boolean;
+
+	label?: boolean|string;
+
+	template?: string;
+
+	placeholder?: string;
+
+	editable?: boolean;
+
+	id?: string;
 }
 
 interface SimpleSchemaDefinition {
