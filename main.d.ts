@@ -39,6 +39,13 @@ interface IAldeedSimpleSchemaPropertyAttributes {
    * @type {boolean}
    */
   sparse?: boolean;
+
+  autoform?: IAldeedMeteorAutoFormPropertyAttributes;
+}
+
+interface IAldeedMeteorAutoFormPropertyAttributes {
+
+	label?: string;
 }
 
 interface SimpleSchemaDefinition {
