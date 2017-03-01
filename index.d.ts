@@ -40,7 +40,7 @@ interface IAldeedSimpleSchemaPropertyAttributes {
 	 */
 	sparse?: boolean;
 
-	autoform?: IAldeedMeteorAutoFormPropertyAttributes;
+	autoform?: any;
 }
 
 interface IAldeedMeteorAutoFormPropertyAttributes {
