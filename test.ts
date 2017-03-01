@@ -1,4 +1,3 @@
-
 import {SimpleSchema} from 'meteor/aldeed:simple-schema';
 
 let schema1: SimpleSchema = new SimpleSchema({});

@@ -1,12 +1,11 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "noEmit": true,
-    "noImplicitAny": true,
-    "noEmit": true
-  },
-  "files": [
-    "test.ts",
-    "main.d.ts"
-  ]
+	"compilerOptions": {
+		"module": "commonjs",
+		"noEmit": true,
+		"noImplicitAny": true
+	},
+	"files": [
+		"test.ts",
+		"main.d.ts"
+	]
 }
