@@ -3,7 +3,7 @@
 	"version": "1.0.2",
 	"description": "Type definitions for aldeed:simple-schema",
 	"scripts": {
-		"build": "typings bundle --global --out out/main.d.ts",
+		"build": "typings bundle --global --out out/index.d.ts",
 		"test": "tsc"
 	},
 	"devDependencies": {

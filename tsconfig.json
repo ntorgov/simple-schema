@@ -6,6 +6,6 @@
 	},
 	"files": [
 		"test.ts",
-		"main.d.ts"
+		"index.d.ts"
 	]
 }
