@@ -1,4 +1,4 @@
 {
 	"name": "aldeed:simple-schema",
-	"main": "main.d.ts"
+	"main": "index.d.ts"
 }
